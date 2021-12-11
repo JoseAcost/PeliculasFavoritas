@@ -1,0 +1,112 @@
+#header {
+    background-color: #021b6e;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: bookman old style;
+}
+#nav {
+    line-height: 25px;
+    background-color: #021b6e;
+    width: 16%;
+    height: 1367px;
+    float: left;
+    padding: 5px;
+    font-weight: bold;
+}
+#content {
+    width: 75%;
+    float: left;
+    padding: 5px;
+    font-size: 110%;
+    font-family: bookman old style;
+    text-align: justify;
+}
+.imagen1 {
+    border: 2px solid #021b6e;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 6px; /*espacio entre la imagen y el texto*/
+}
+#footer {
+    background-color: #021b6e;
+    color: whitesmoke;
+    clear: both; /* mueve elementos debajo de elementos a ambos lados*/
+    text-align: center;
+    padding: 5px;
+}
+h4 {
+    color: #444a47;
+}
+img:hover{
+    box-shadow: 0 0 30px rgba(0,140,186,0.5); /*efecto con el mouse*/
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 215px;
+    height: 600px;
+    border: 0;
+    background-color:cadetblue;
+    
+}
+a:link(.activacion){
+    color: red;
+}
+a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+a:active{
+    color: red;
+}
+ul li {
+  padding:10px;
+  cursor:pointer;
+}
+.activado {
+  background: rgb(68, 160, 185);
+    color:white;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    box-shadow: 0 0 30px rgba (80,140,186,0.5);
+    text-decoration: none;
+    text-align: center;
+    font-family: bookman old style;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+    border-color: blue;
+    
+}
+
+td {
+    background-attachment: fixed;
+    background-color: grey;
+    backface-visibility: hidden;
+    color: blue;
+    border-collapse: none;
+}
+
+th { background:black; 
+    font-weight: bold;
+}
+
+td { background: black;
+    text-align: center;
+}
+
+tr:nth-child(even) td { background: cadetblue; }  
+
+tr:nth-child(odd) td { background: cadetblue; } 
+
+tr td:hover { background: #666; color:cadetblue; }
